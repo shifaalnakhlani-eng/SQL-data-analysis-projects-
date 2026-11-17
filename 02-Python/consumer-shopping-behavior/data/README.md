@@ -1,0 +1,1 @@
+Add the original `consumer_shopping_behavior_survey.csv` file to this folder to run the notebook. The dataset was not included in the uploaded notebook, so no replacement data has been added.
