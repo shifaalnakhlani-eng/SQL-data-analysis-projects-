@@ -1,19 +1,23 @@
-# Data Analysis Portfolio
+# Shifa Al Nakhli — Project Portfolio
 
-A collection of hands-on projects in SQL, Python and business intelligence.
+A collection of practical projects spanning data analytics, business intelligence, and web development. This repository acts as the index for my work; each project remains in its own repository or organized project folder so its code, data, and supporting files stay together.
 
-## Projects
+## Data analytics
 
-| Area | Project | Tools |
-|---|---|---|
-| SQL | [Zepto SQL Data Analysis](01-SQL/zepto-analysis/) | SQL |
-| Python | [Consumer Shopping Behavior Analysis](02-Python/consumer-shopping-behavior/) | Python, pandas, NumPy, Matplotlib, Seaborn |
+| Project | Overview | Tools | Project link |
+|---|---|---|---|
+| **Zepto SQL Data Analysis** | Explores an e-commerce quick-commerce inventory dataset to practice data cleaning, exploratory analysis, and business-focused SQL queries. | SQL | [Open project](01-SQL/zepto-analysis/) |
+| **Consumer Shopping Behavior Analysis** | Explores survey responses about shopping habits, customer preferences, and purchasing behavior through data cleaning, segmentation, summary statistics, and visual analysis. | Python, pandas, NumPy, Matplotlib, Seaborn | [Open project](02-Python/consumer-shopping-behavior/) |
+| **Customer Shopping Behavior — End-to-End Analysis** | An end-to-end customer analytics case study: Python data preparation, SQL business questions, a Power BI dashboard, and a presentation/report. | SQL, Python, Power BI, Jupyter Notebook | [Open project repository](https://github.com/shifaalnakhlani-eng/customer-trends-data-analysis-SQL-Python-PowerBI) |
 
-## Related end-to-end project
+## Web development and application prototypes
 
-The [Customer Trends Data Analysis (SQL, Python & Power BI)](https://github.com/shifaalnakhlani-eng/customer-trends-data-analysis-SQL-Python-PowerBI) project remains in its own repository because it contains a separate end-to-end case study, notebook, SQL queries, Power BI dashboard and presentation.
+| Project | Overview | Tools | Project link |
+|---|---|---|---|
+| **Scholarship Platform** | A single-page scholarship management platform prototype with student-facing and administrative dashboard-style screens, profile and document areas, and application-management interface elements. | HTML, CSS, JavaScript (single HTML app) | [Open project](https://github.com/shifaalnakhlani-eng/scholarship-platform) |
+| **Amazon Picks Website** | A simple product-curation and affiliate website prototype with home, product, and supporting site pages. | HTML, CSS | [Open project](https://github.com/shifaalnakhlani-eng/shifaalnakhlani.github.io) |
 
-## Repository structure
+## Repository layout
 
 ```text
 01-SQL/
@@ -23,4 +27,10 @@ The [Customer Trends Data Analysis (SQL, Python & Power BI)](https://github.com/
 03-Power-BI/
 ```
 
-Each project folder contains its own README and dependencies where applicable. Add future projects under the matching tool category.
+The end-to-end Customer Shopping Behavior project is kept in its own repository because its dashboard, notebook, SQL queries, dataset, PDF report, and presentation form a complete standalone case study.
+
+## Notes
+
+- Each project README describes its objective, contents, and how to get started.
+- Dataset files are included only where they are available and appropriate to share.
+- This portfolio index will be updated as new projects are added.
