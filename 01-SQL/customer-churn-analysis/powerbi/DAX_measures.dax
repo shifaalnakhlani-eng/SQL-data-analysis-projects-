@@ -1,0 +1,9 @@
+Total Customers = DISTINCTCOUNT(Telco[customerID])
+Churned Customers = CALCULATE([Total Customers], Telco[Churn] = "Yes")
+Retained Customers = CALCULATE([Total Customers], Telco[Churn] = "No")
+Churn Rate = DIVIDE([Churned Customers], [Total Customers], 0)
+Retention Rate = DIVIDE([Retained Customers], [Total Customers], 0)
+Average Monthly Charges = AVERAGE(Telco[MonthlyCharges])
+Average Tenure = AVERAGE(Telco[tenure])
+Churned Monthly Charges = CALCULATE(SUM(Telco[MonthlyCharges]), Telco[Churn] = "Yes")
+-- Label as monthly charges associated with churned customers, not revenue lost.
