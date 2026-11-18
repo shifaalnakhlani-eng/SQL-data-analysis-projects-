@@ -1,0 +1,8 @@
+DATA QUALITY REPORT
+Source: IBM Telco Customer Churn sample
+Raw dimensions: 7,043 rows x 21 columns
+Duplicate customer IDs: 0
+Blank TotalCharges values: 11
+All 11 blank TotalCharges values are associated with tenure = 0 in the sample.
+Cleaning: TotalCharges converted to numeric; blank zero-tenure values retained, set to 0 in numeric field, and flagged with TotalChargesWasBlank=True.
+Raw CSV should remain unchanged.
