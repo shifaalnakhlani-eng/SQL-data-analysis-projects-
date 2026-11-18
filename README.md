@@ -7,6 +7,8 @@ A collection of practical projects spanning data analytics, business intelligenc
 | Project | Overview | Tools | Project link |
 |---|---|---|---|
 | **Zepto SQL Data Analysis** | Explores an e-commerce quick-commerce inventory dataset to practice data cleaning, exploratory analysis, and business-focused SQL queries. | SQL | [Open project](01-SQL/zepto-analysis/) |
+| **Telecom Customer Churn Analysis** | Analyses 7,043 IBM sample telecom customer records, churn segments, tenure, contracts, payment methods and service patterns, with SQL, Python and Power BI guidance. | SQL, Python, Power BI, Excel | [Open project](01-SQL/customer-churn-analysis/) |
+| **Bank Loan Report** | Analyses a bank loan dataset with SQL and dashboard-oriented reporting materials. | SQL, dashboards | [Open project](01-SQL/bank-loan-report/) |
 | **Consumer Shopping Behavior Analysis** | Explores survey responses about shopping habits, customer preferences, and purchasing behavior through data cleaning, segmentation, summary statistics, and visual analysis. | Python, pandas, NumPy, Matplotlib, Seaborn | [Open project](02-Python/consumer-shopping-behavior/) |
 | **Customer Shopping Behavior — End-to-End Analysis** | An end-to-end customer analytics case study: Python data preparation, SQL business questions, a Power BI dashboard, and a presentation/report. | SQL, Python, Power BI, Jupyter Notebook | [Open project repository](https://github.com/shifaalnakhlani-eng/customer-trends-data-analysis-SQL-Python-PowerBI) |
 
