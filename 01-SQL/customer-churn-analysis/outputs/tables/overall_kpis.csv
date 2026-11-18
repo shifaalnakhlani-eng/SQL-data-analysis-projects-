@@ -1,0 +1,2 @@
+total_customers,churned_customers,retained_customers,churn_rate_pct,retention_rate_pct,avg_monthly_charges
+7043,1869,5174,26.54,73.46,64.76
